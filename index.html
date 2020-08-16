@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lotus Page Leads</title>
+</head>
+<body>
+  <body>
+    <h1>Lotus Page Leads</h1>
+    <form method="POST" action="https://smtl.gama.academy/leads/7f2a5db0-dcac-11ea-91f1-99fb0c9231dc">
+      <input
+        name="name"
+        type="text"
+        pattern="^\D{2,}\s[\D\s]{2,}$"
+        title="Digite seu nome completo"
+        required
+        placeholder="Digite seu nome completo"
+      />
+      <input
+        name="email"
+        type="email"
+        title="Digite um email válido"
+        required
+        placeholder="Digite um email válido"
+      />
+      <input name="redirectTo" type="hidden" value="https://gama.academy" />
+      <!-- <input name="debugMode" type="hidden" value="true" /> -->
+      <input type="submit" />
+    </form>
+  </body>
+  
+</body>
+</html>
