@@ -1,0 +1,108 @@
+.banner {
+  max-width: 100%;
+  min-height: 207px;
+}
+
+.banner {
+  background-image: url("../img/banner.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 7 métodos naturais para reduzir a ansiedade */
+h1 {
+  position: absolute;
+  width: 317px;
+  height: 133px;
+  left: 11px;
+  top: 33px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+}
+
+h2 {
+  margin: auto;
+  width: 328px;
+  height: 64px;
+  left: 24px;
+  top: 216px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #76b83f;
+}
+
+label.name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+input#exampleInputName {
+  width: 328px;
+  height: 40px;
+  left: calc(50% - 328px / 2 - 0.5px);
+  top: calc(50% - 40px / 2 - 1.5px);
+  background: #dddbdb;
+  border-radius: 3px;
+}
+
+
+
+label.email {
+  width: 217px;
+  height: 24px;
+  left: 23px;
+  top: 368px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+input#exampleInputEmail{
+  width: 328px;
+  height: 40px;
+  left: calc(50% - 328px/2 - 0.5px);
+  top: calc(50% - 40px/2 + 78.5px);
+  background: #DDDBDB;
+  border-radius: 3px;
+  }
+  
+
+p {
+  width: 330px;
+  height: 20px;
+  left: 23px;
+  top: 443px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+}
+.btn-submit {
+  position: absolute;
+  width: 152px;
+  height: 40px;
+  left: 112px;
+  top: 470px;
+  background: #76b83f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
