@@ -1,0 +1,61 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+.header{
+    justify-content: center;
+}
+
+.header h2, .header p{
+    display: flex;
+    justify-content: center;
+}
+
+.download .btn {
+    background-color: #76b83f;
+    color: white;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.others{
+    display: flex;
+    justify-content: space-between;
+}
+
+.others .materia{
+    /* display: flex; */
+    flex-direction: column;
+}
+
+.others .materia img{
+    width: 87px;
+    height: 105px;
+    margin-bottom: 5px;
+}
+
+.plus{
+    display: flex;
+    justify-content: right;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: center;
+}
+
+footer img{
+    width: 53px;
+    height: 32px;
+
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
