@@ -11,6 +11,10 @@
     background-repeat: no-repeat;
      padding: 35px 51px 39px 7px;
   }
+  form{
+    margin: 8px auto;
+  }
+  
   
   /* 7 métodos naturais para reduzir a ansiedade */
   h1 {
@@ -21,7 +25,7 @@
   }
   
   h4{
-    margin: 13px auto;
+    margin: 0 auto;
     width: 328px;
     height: 64px;
     left: 24px;
@@ -33,13 +37,11 @@
     line-height: 29px;
     text-align: center;
     color: #76b83f;
+    padding-top: 13px;
     
   }
 
-  form{
-    margin: 8px auto;
-  }
-  
+ 
   label.name {
     font-family: Montserrat;
     font-style: normal;
@@ -105,6 +107,12 @@
     border-radius: 4px;
     border: none;
     color: #ffffff;
+  }
+
+  .btn-submit:hover{
+    background: #A5D37E;
+box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
   }
   
   #carouselExampleInterval {
@@ -183,33 +191,29 @@
     margin: auto;
   }
   h1 {
-    position: absolute;
-    min-width: 317px;
-    height: 133px;
-    left: 11px;
-    top: 73px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 28px;
-    line-height: 34px;
     color: #000000;
   }
   
-  h2 {
-    margin: 13px auto;
+  h4{
+    margin: 0 auto;
     width: 328px;
     height: 64px;
     left: 24px;
     top: 216px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
     color: #76b83f;
+    padding-top: 13px;
+    
   }
+
   
   label.name {
     font-family: Montserrat;
@@ -276,6 +280,13 @@
     border-radius: 4px;
     border: none;
     color: #ffffff;
+  }
+
+
+  .btn-submit:hover{
+    background: #A5D37E;
+    box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
   }
   #carouselExampleInterval {
     position: relative;
