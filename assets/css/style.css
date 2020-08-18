@@ -13,7 +13,7 @@
 /* 7 métodos naturais para reduzir a ansiedade */
 h1 {
   position: absolute;
-  width: 317px;
+  min-width: 317px;
   height: 133px;
   left: 11px;
   top: 33px;
@@ -38,7 +38,11 @@ h2 {
   line-height: 29px;
   text-align: center;
   color: #76b83f;
+  margin-top: 13px;
+  margin-bottom: 8px;
 }
+
+
 
 label.name {
   font-family: Montserrat;
@@ -50,7 +54,7 @@ label.name {
 }
 
 input#exampleInputName {
-  width: 328px;
+  min-width: 328px;
   height: 40px;
   left: calc(50% - 328px / 2 - 0.5px);
   top: calc(50% - 40px / 2 - 1.5px);
@@ -74,7 +78,7 @@ label.email {
 }
 
 input#exampleInputEmail{
-  width: 328px;
+  min-width: 328px;
   height: 40px;
   left: calc(50% - 328px/2 - 0.5px);
   top: calc(50% - 40px/2 + 78.5px);
@@ -95,14 +99,17 @@ p {
   line-height: 15px;
   text-align: center;
   color: #000000;
+  padding-top: 11px;
+ 
+  
 }
 .btn-submit {
-  position: absolute;
-  width: 152px;
-  height: 40px;
-  left: 112px;
-  top: 470px;
-  background: #76b83f;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
+position: absolute;
+width: 152px;
+height: 40px;
+left: 112px;
+top: 477px;
+background: #76B83F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
 }
