@@ -1,7 +1,12 @@
-
+/*reset css*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @media (min-width: 320px) { 
   .container-fluid{
-    padding: 20px;
+    padding:  0 20px;
   }
   
   .banner {
@@ -11,7 +16,7 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-     padding: 35px 51px 39px 7px;
+    padding: 35px 51px 39px 7px;
   }
   form{
     margin: 8px auto;
@@ -144,9 +149,6 @@
     line-height: 20px;
     text-align: center;
     color: #000000;
-    
-   
-    
   }
   .carousel-item :first-child {
     min-width: 100%;
@@ -186,6 +188,23 @@
    align-items: center;
    padding-bottom: 15px;
  }
+
+ /* #modalId{
+  position: fixed;
+  background-color: tomato;
+  width: 800px;
+  height: 600px;
+ }
+
+
+.active{
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+} */
+
 }
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {  
