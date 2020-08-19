@@ -4,6 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
 @media (min-width: 320px) { 
   .container-fluid{
     padding:  0 20px;
@@ -378,10 +380,10 @@
     align-items: center;
     padding-bottom: 15px;
   }
-
+}
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
-
+}
 /*  Extra large devices (large desktops, 1200px and up) */
 /* @media (min-width: 1200px) { ... } */
