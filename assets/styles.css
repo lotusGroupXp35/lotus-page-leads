@@ -57,7 +57,12 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    
+    width: 100vw;
+    height: 100vh;
+    
 }
+
 
 .secundImg{
     height: 1226px;
@@ -180,6 +185,16 @@ footer img{
 @media(min-width: 992px){
     .container{
         display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .container .secundImg{
+        display: block;
+        margin: 0;
     }
 
     .header{
@@ -199,8 +214,9 @@ footer img{
         font-size: 16px;
     }
 
-    .container .secundImg{
-        display: none;
+    .secundContainer{
+        height: 100vh;
+        width: 100vw;
     }
 
     .imgLarge{
